@@ -1,0 +1,88 @@
+
+
+.TodoApp{
+  background-color: #ffffff;
+  color: #181818;
+  padding: 18px;
+  border-radius: 16px;
+}
+
+.TodoInput input{
+  width: 310px;
+  padding: 12px 16px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  background-color: #E5E5E5;
+  color: #181818;
+}
+
+.TodoInput input::placeholder{
+  font-size: 1rem;
+  color: #A3A3A3;
+}
+
+.InputButton{
+  margin-left: 10px;
+  padding: 12px 16px;
+  border-radius: 10px;
+  border: none;
+  background-color: #181818;
+  color: #fff;
+}
+
+.todoList{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.todo{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.todo-left{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.todoRight-buttons{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.EditButton{
+  padding: 4px 7px;
+  background-color: #181818;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+}
+
+.checkbox{
+  height: 24px;
+  width: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #E5E5E5;
+  border-radius: 6px;
+}
+
+.checkbox:hover{
+  border: 2px solid rgba(24, 24, 24, 0.3);
+}
+
+.fa-check{
+  font-size: 14px;
+  color: #fff;
+}
+
+.EditInput {
+  font-size: 16px;
+}
